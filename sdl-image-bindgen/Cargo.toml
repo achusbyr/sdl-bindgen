@@ -6,6 +6,16 @@ license = "Zlib"
 repository = "https://github.com/achusbyr/sdl-bindgen"
 description = "FFI bindings for SDL_image via bindgen"
 links = "SDL3_image"
+exclude = [
+    "/SDL_image/external/aom",
+    "/SDL_image/external/dav1d",
+    "/SDL_image/external/libavif",
+    "/SDL_image/external/libjxl",
+    "/SDL_image/external/libtiff",
+    "/SDL_image/external/libwebp",
+    "/SDL_image/external/SDL",
+    "/SDL_image/VisualC/external/optional",
+]
 
 [dependencies]
 sdl-sys-bindgen = "0.1"

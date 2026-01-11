@@ -1,0 +1,3 @@
+[workspace]
+resolver = "3"
+members = ["sdl-build", "sdl-sys-bindgen", "sdl-gfx-bindgen", "sdl-ttf-bindgen", "sdl-image-bindgen"]

@@ -1,0 +1,12 @@
+[submodule "sdl-sys-bindgen/SDL"]
+	path = sdl-sys-bindgen/SDL
+	url = https://github.com/libsdl-org/SDL
+[submodule "sdl-gfx-bindgen/SDL3_gfx"]
+	path = sdl-gfx-bindgen/SDL3_gfx
+	url = https://github.com/sabdul-khabir/SDL3_gfx
+[submodule "sdl-ttf-bindgen/SDL_ttf"]
+	path = sdl-ttf-bindgen/SDL_ttf
+	url = https://github.com/libsdl-org/SDL_ttf
+[submodule "sdl-image-bindgen/SDL_image"]
+	path = sdl-image-bindgen/SDL_image
+	url = https://github.com/libsdl-org/SDL_image

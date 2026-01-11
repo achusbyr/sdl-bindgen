@@ -1,0 +1,13 @@
+[package]
+name = "sdl-build"
+version = "0.1.0"
+license = "Zlib"
+repository = "https://github.com/achusbyr/sdl-bindgen"
+description = "Library for automated building of SDL"
+edition = "2024"
+
+[dependencies]
+pkg-config = "0.3"
+vcpkg = "0.2"
+cmake = "0.1"
+bindgen = "0.72"

@@ -1,0 +1,17 @@
+[package]
+name = "sdl-image-bindgen"
+version = "0.1.0+SDLimage-3.2.6"
+edition = "2024"
+license = "Zlib"
+repository = "https://github.com/achusbyr/sdl-bindgen"
+description = "FFI bindings for SDL_image via bindgen"
+links = "SDL3_image"
+
+[dependencies]
+sdl-sys-bindgen = "0.1"
+
+[build-dependencies]
+sdl-build = "0.1"
+
+[lints.clippy]
+approx_constant = "allow"

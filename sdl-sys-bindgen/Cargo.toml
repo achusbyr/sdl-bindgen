@@ -1,0 +1,22 @@
+[package]
+name = "sdl-sys-bindgen"
+version = "0.1.0+SDL-3.4.0"
+edition = "2024"
+license = "Zlib"
+repository = "https://github.com/achusbyr/sdl-bindgen"
+description = "FFI bindings for SDL via bindgen"
+# links = "SDL3"
+
+[build-dependencies]
+sdl-build = "0.1"
+
+[features]
+default = ["build-from-source"]
+build-from-source = []
+static-link = []
+
+[lints.clippy]
+approx_constant = "allow"
+
+[[example]]
+name = "hello_world"
